@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kids Monitor public privacy, terms, subscription manual, compliance and account-deletion pages."
+    />
+    <title>Kids Monitor Policies and Manual</title>
+    <style>
+      :root { --text: #172535; --muted: #53677d; --line: #dce8f4; --blue: #1769aa; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        color: var(--text);
+        background: radial-gradient(circle at top right, #e4f0ff, #f4f8fc 44rem);
+      }
+      main { width: min(920px, calc(100% - 28px)); margin: 0 auto; padding: 30px 0 56px; }
+      .hero {
+        padding: 30px;
+        border-radius: 24px;
+        color: #fff;
+        background: linear-gradient(135deg, #ff8a00, #ff6500);
+        box-shadow: 0 18px 40px rgba(113, 62, 14, 0.2);
+      }
+      h1 { margin: 0; font-size: clamp(32px, 6vw, 50px); line-height: 1.08; }
+      .hero p { margin: 14px 0 0; color: #fff; font-size: 17px; line-height: 1.55; }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin-top: 16px; }
+      a.card {
+        display: block;
+        padding: 19px;
+        border: 1px solid var(--line);
+        border-radius: 17px;
+        background: #fff;
+        color: inherit;
+        text-decoration: none;
+        box-shadow: 0 8px 22px rgba(39, 66, 93, 0.07);
+      }
+      a.card:hover { border-color: #afd1ee; transform: translateY(-1px); }
+      h2 { margin: 0 0 7px; font-size: 20px; }
+      p { margin: 0; color: var(--muted); line-height: 1.55; }
+      .footer { margin-top: 22px; color: #6a7f96; font-size: 13px; text-align: center; }
+      @media (max-width: 680px) { .grid { grid-template-columns: 1fr; } .hero { padding: 23px 20px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <h1>Kids Monitor policies and manual</h1>
+        <p>
+          Public information for families, app reviewers and support. These
+          pages explain data handling, plan entitlements, family sharing,
+          monitoring limits and account deletion.
+        </p>
+      </header>
+      <div class="grid">
+        <a class="card" href="apps-policy.html">
+          <h2>Privacy Policy</h2>
+          <p>What data is processed, why it is needed, retention and user controls.</p>
+        </a>
+        <a class="card" href="terms.html">
+          <h2>Terms of Service</h2>
+          <p>Eligibility, guardian authority, subscriptions, family sharing and acceptable use.</p>
+        </a>
+        <a class="card" href="manual.html">
+          <h2>Subscription and User Manual</h2>
+          <p>Plan comparison, refresh times, child capacity, Safe Areas, SOS and billing FAQ.</p>
+        </a>
+        <a class="card" href="compliance.html">
+          <h2>Trust and Compliance</h2>
+          <p>Permissions, safety controls, service limitations and responsible use.</p>
+        </a>
+        <a class="card" href="delete-account.html">
+          <h2>Account and Data Deletion</h2>
+          <p>Delete an account in the app or submit a verified deletion request.</p>
+        </a>
+      </div>
+      <footer class="footer">Kids Monitor · Updated 18 November 2026</footer>
+    </main>
+  </body>
+</html>

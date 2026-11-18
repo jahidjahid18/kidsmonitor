@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kids Monitor trust, safety, permissions and compliance information."
+    />
+    <title>Kids Monitor Trust and Compliance</title>
+    <style>
+      :root {
+        --bg: #f5f9fc;
+        --card: #fff;
+        --text: #172535;
+        --muted: #52667c;
+        --accent: #ff7a00;
+        --line: #dce8f4;
+        --blue: #1769aa;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        color: var(--text);
+        background: radial-gradient(circle at top right, #e4f0ff, var(--bg) 42rem);
+      }
+      .wrap { width: min(920px, calc(100% - 28px)); margin: 0 auto; padding: 26px 0 52px; }
+      .hero {
+        padding: 28px;
+        border-radius: 22px;
+        color: #fff;
+        background: linear-gradient(135deg, #ff8a00, #ff6500);
+        box-shadow: 0 16px 38px rgba(113, 62, 14, 0.2);
+      }
+      h1 { margin: 0; font-size: clamp(30px, 5vw, 45px); line-height: 1.1; }
+      .hero p { margin: 12px 0 0; color: #fff; font-size: 17px; line-height: 1.55; }
+      section {
+        margin-top: 15px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--card);
+      }
+      h2 { margin: 0 0 10px; font-size: 22px; }
+      h3 { margin: 16px 0 6px; font-size: 17px; }
+      p, li { color: var(--muted); line-height: 1.62; font-size: 15.5px; }
+      ul { margin: 8px 0 0 20px; padding: 0; }
+      a { color: var(--blue); font-weight: 650; }
+      .notice {
+        margin-top: 12px;
+        padding: 14px;
+        border: 1px solid #f0d8a8;
+        border-radius: 14px;
+        background: #fff6e3;
+      }
+      .links { display: flex; flex-wrap: wrap; gap: 9px; }
+      .links a {
+        padding: 9px 12px;
+        border: 1px solid var(--line);
+        border-radius: 11px;
+        background: #f7fbff;
+        text-decoration: none;
+      }
+      .footer { margin-top: 20px; color: #6a7f96; font-size: 13px; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="hero">
+        <h1>Kids Monitor trust and compliance</h1>
+        <p>
+          How monitoring works, which permissions are required, what plan
+          features are available, and where to find the governing policies.
+        </p>
+      </header>
+
+      <section>
+        <h2>Purpose of the service</h2>
+        <p>
+          Kids Monitor is a consent-based family safety aid. It provides live
+          or last-known location, safety alerts, SOS, optional location history,
+          Location Logs and Safe Areas.
+        </p>
+        <ul>
+          <li>Monitoring is visible on the child device.</li>
+          <li>The child can stop monitoring.</li>
+          <li>Parent or legal-guardian authority is required.</li>
+          <li>The service is not an emergency-response provider.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Required and optional permissions</h2>
+        <ul>
+          <li><strong>Location:</strong> foreground and, where supported, background location for live status, route history and Safe Area evaluation.</li>
+          <li><strong>Notifications:</strong> parent safety alerts and the visible child monitoring status where required.</li>
+          <li><strong>Camera:</strong> only when the user chooses to scan a pairing QR code.</li>
+          <li><strong>Battery optimization exemption:</strong> optional Android setting that helps location and safety monitoring continue while the device is idle.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Safety and data controls</h2>
+        <ul>
+          <li>Parents can remove a linked parent or leave the shared family.</li>
+          <li>The last guardian’s departure stops monitoring and queues child-data cleanup.</li>
+          <li>Guardian invitations are one-use, expire after two hours and are revoked when membership changes.</li>
+          <li>Free keeps current/last-known location, one Safe Area and recent safety alerts without retaining route history.</li>
+          <li>Paid plans add route history, Location Logs and up to 95 Safe Areas according to the plan.</li>
+          <li>SOS is available on every plan.</li>
+          <li>The app contains no advertising SDK and does not use the Android advertising ID.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Service limitations</h2>
+        <p>
+          Location, notifications and alerts can be delayed or unavailable
+          because of GPS accuracy, permissions, battery management, network
+          connectivity, Firebase services, Google Maps, push delivery, device
+          settings or service outages.
+        </p>
+        <div class="notice">
+          Do not rely on Kids Monitor as the only method of emergency response.
+          Contact appropriate local emergency services when a person is in
+          immediate danger.
+        </div>
+      </section>
+
+      <section>
+        <h2>Responsible use</h2>
+        <ul>
+          <li>Use only with clear authority and required consent.</li>
+          <li>Follow local child-safety, privacy, employment and data-protection laws.</li>
+          <li>Do not use the service for covert surveillance of an adult or non-consenting person.</li>
+          <li>Protect account credentials, guardian codes and parent devices.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Policy and support links</h2>
+        <div class="links">
+          <a href="apps-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="manual.html">Subscription and User Manual</a>
+          <a href="delete-account.html">Account and Data Deletion</a>
+          <a href="mailto:Jahidjahid18@gmail.com?subject=Kids%20Monitor%20Compliance">Contact support</a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        Kids Monitor · Trust and compliance · Updated 18 November 2026
+      </footer>
+    </main>
+  </body>
+</html>
