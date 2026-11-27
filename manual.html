@@ -400,6 +400,33 @@
         </ul>
       </section>
 
+      <section id="ring-find-closed-apps">
+        <h2>Ring, Find child and what works when the app is closed</h2>
+        <ul>
+          <li><strong>Ring</strong> — the child phone shows a full-screen
+            "Incoming ring from parent" alert with a Stop button, even when the
+            screen is locked. The alarm sound plays on the alarm stream and the
+            ringtone plays while the child app is open.</li>
+          <li><strong>Find child</strong> — requests a fresh high-accuracy
+            location from the child phone. It normally arrives within a few
+            seconds while the child phone has internet.</li>
+          <li><strong>SOS</strong> — parents receive an urgent notification with
+            the live location and map, even if the parent app was cleared from
+            recent apps.</li>
+          <li><strong>Cleared from recent apps (not force-stopped)</strong> —
+            Android wakes the app with a high-priority push message, so Ring,
+            Find child and SOS still work. Continuous location updates pause
+            until the app wakes or is opened again.</li>
+          <li><strong>Force-stop</strong> — no app can wake a force-stopped app,
+            including messaging apps. The parent still receives the offline
+            alert.</li>
+          <li><strong>Keeping it reliable</strong> — on both phones set Battery to
+            "No restrictions", allow notifications and full-screen
+            notifications, and on Xiaomi/OPPO/vivo/Huawei enable Autostart and
+            lock the app in recent apps.</li>
+        </ul>
+      </section>
+
       <section id="child">
         <h2>Child experience and Kids Adventure</h2>
         <p>
